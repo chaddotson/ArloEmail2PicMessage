@@ -10,9 +10,7 @@ from os import getcwd
 from os.path import join
 import re
 import requests
-
 from typing import List
-
 
 from pytools.email import SMTPSender, IMAPReceiver
 
