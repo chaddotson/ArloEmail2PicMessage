@@ -74,7 +74,6 @@ def create_SMTPSender(config):
         server = config.get("email", "smtp_server")
         port = config.getint("email", "smtp_port")
 
-
     except ConfigParserError as e:
         logger.exception("Failed to read smtp settings from config file. %s", e.message)
         raise FailedToCreateSMTPSender()
