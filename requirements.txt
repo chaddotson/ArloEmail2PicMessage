@@ -1,1 +1,1 @@
-https://github.com/chaddotson/pytools/tarball/master#egg=pytools-0.1.2
+https://github.com/chaddotson/pytools/tarball/master#egg=pytools-0.1.1
