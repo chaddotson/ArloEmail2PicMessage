@@ -153,7 +153,7 @@ def run(args):
     logger.info("SMTP and IMAP interfaces created: %s", smtp)
 
     alerts_from = config.get("app", "alert_from_address")
-    emails = imap.get_new_emails("alerts@arlo.com")
+    emails = imap.get_emails("alerts@arlo.com")
 
     logger.info("Processing %d new messages", len(emails))
 
